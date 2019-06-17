@@ -3,7 +3,7 @@
 # That argument should be stored within a @name instance variable.
 
 class Dog
-  def initialize(name, breed)
+  def initialize(name, breed = "Mutt")
     @name = name
     @breed = breed
   end
