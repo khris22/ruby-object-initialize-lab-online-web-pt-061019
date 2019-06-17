@@ -3,8 +3,9 @@
 # That argument should be stored within a @name instance variable.
 
 class Dog
-  def initialize(name)
+  def initialize(name, breed)
     @name = name
+    @breed = breed
   end
   
   def name
@@ -12,9 +13,7 @@ class Dog
   end
 
 #should accept a second optional argument for the dog's breed stored in an instance variable @breed. When none is provided, it should default to "Mutt".
-  def initilize(breed)
-    @breed = breed 
-  end
+
   
   def breed
     @breed 
